@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Routes
-const userRoutes = require('./routes/user');
+const userRoutes = require('./routes/User');
 app.use(userRoutes);
 
 // Start the server
