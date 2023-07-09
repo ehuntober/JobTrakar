@@ -7,7 +7,9 @@ let connectDB = () =>{
         console.log('connected to the database....')
     }
     catch(error){
-        console.log(eror)
+        console.log(error)
     }
 
 }
+
+module.exports(connectDB)
